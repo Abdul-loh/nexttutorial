@@ -1,0 +1,31 @@
+.foodies{
+  display:flex;
+  margin:100px  auto ;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.foodhome{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.foodMore{
+  display:flex;
+  gap:10px;
+  align-items: center;
+ font-weight: 700;
+ font-size: 17px;
+}
+.foodMore .menu{
+  background: linear-gradient(to left, red, yellow);
+  padding:9px;
+  border-radius: 8px;
+}
+
+.foodWords{
+  background: linear-gradient(to top, red, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
