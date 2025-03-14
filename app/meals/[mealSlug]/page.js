@@ -2,10 +2,6 @@ import { getFood } from "@/libs/route";
 import Image from "next/image";
 import each from "./eachmeal.module.css"
 import Unfound from "../unfound";
-import code from "@/assets/codedexs.webp"
-
-
-
 
 
 export async function generatedMetadata(){
@@ -19,8 +15,8 @@ export async function generatedMetadata(){
     description:meals.description,
   }
 }
-export default  function EachMeal({params}){
-const meals = getFood(params.mealSlug);
+export  default async  function EachMeal({params}){
+const meals =  await getFood(params.mealSlug);
 
 
     return(
@@ -44,7 +40,3 @@ const meals = getFood(params.mealSlug);
     
 }
 
-// // <div className={each.dex}>
-// //     <Image   src={code} width={500} height={500}/>
-// // <p className={each.dexx}>CodeDeckX</p>
-//     </div>

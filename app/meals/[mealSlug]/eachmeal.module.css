@@ -39,19 +39,3 @@
     50% {background-color: yellowgreen;}
     100% {background-color:pink;}
 }
-/* .dex{
-    position: relative;
-}
-.dex .dexx{
-    position: absolute;
-    top:271px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    left:60px;
-    background: linear-gradient(to left, yellow, rgb(151, 151, 255));
-    background-clip:text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    font-size: 20px;
-    letter-spacing: 2px;
-} */

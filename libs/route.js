@@ -11,7 +11,7 @@ export async function getFoods(){
 
 }
 
-export function getFood(slug){    
+export async function getFood(slug){    
  return db.prepare('SELECT * FROM foods WHERE slug  = ?').get(slug);
 }
 
