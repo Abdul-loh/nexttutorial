@@ -2,6 +2,10 @@
   
   --foreground: #171717;
 }
+.found{
+  text-align: center;
+  color:white;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -41,3 +45,32 @@ a {
     color-scheme: dark;
   }
 }
+.handleError, .nonfound{
+  text-align: center;
+  color:white;
+  margin-top:15rem;
+}
+.handleError h1{
+ font-size: 3rem;
+ background: linear-gradient(yellow, red);
+ background-clip:text;
+ -webkit-background-clip:text;
+ -webkit-text-fill-color:transparent;
+ margin-top: 1rem;
+}
+.handleError p{
+ font-size: 19px;
+ font-style: italic;
+}
+.nonfound h1{
+  font-size: 3rem;
+  background: linear-gradient(yellow, red);
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  margin-top: 1rem;
+}
+ .nonfound p{
+  font-size: 19px;
+  font-style: italic;
+ }

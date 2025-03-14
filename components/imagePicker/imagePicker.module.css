@@ -1,0 +1,15 @@
+
+
+.pickerBtn{
+    display: inline-block;
+    padding:10px;
+    border: none;
+    outline:none;
+    background:#ccc ;
+    font-weight: 600;
+    
+}
+.UploasImage{
+display: flex;
+gap:2rem;
+}

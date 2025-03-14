@@ -1,0 +1,49 @@
+.container img {
+ width: 100%;
+ height:100%;
+ 
+ object-fit: contain;
+   
+}
+
+.container {
+    color:white;
+   background:linear-gradient(to right, red, yellow); 
+   padding:0px;
+   margin-bottom: 2rem;
+   ;
+ 
+   
+ }
+ .mealType h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .mealType .by{
+    font-style: italic;
+ }
+ .mealType .aboutSummary{
+    margin: 7px 0;
+    font-weight: 900;
+ }
+ .mealDetails{
+text-align: right;
+
+ }
+ .details{
+    display: flex; 
+    margin: 7px 6px;
+    padding:8px 10px;
+    background: linear-gradient( yellow, red);
+    display: inline-block;
+    font-weight: 900;
+    transition: all 1.3s ease-out;  
+ }
+ .details:hover{
+    background: #ccc;
+    color:rgba(0, 0, 0, 0.849)
+ }
+ .mealType{
+   padding-left:7px;
+ }

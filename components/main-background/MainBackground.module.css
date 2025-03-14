@@ -1,0 +1,15 @@
+.mainbackground{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  
+    
+   
+}
+.mainbackground .mainback{
+    display: block;
+    width: 100%;
+    height: auto;
+  
+}

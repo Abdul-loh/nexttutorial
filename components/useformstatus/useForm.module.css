@@ -1,0 +1,14 @@
+.sharebtm{
+    background:linear-gradient(yellow, red) ;
+    border:none;
+    outline:none;
+    padding:10px;
+    color:#ccc;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 5px;
+    cursor:pointer;
+    }
+    .shareBtn{
+     margin-left: 350px;
+    }

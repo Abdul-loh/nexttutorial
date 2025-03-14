@@ -1,0 +1,15 @@
+.loadme{
+    text-align: center;
+    font-size: 19px;
+    color:white;
+}
+.loadme p{
+   animation:loading ease-in-out  infinite 2s ;
+}
+@keyframes loading{
+    0% { color:#fff;}
+    25% { color:yellow;}
+    50% {color:red;}
+    100% {color:#ccccccb7;}
+
+}

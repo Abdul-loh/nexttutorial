@@ -1,0 +1,27 @@
+.mainsgrid{
+    /* display: grid;
+   
+    grid-template-columns: 300px;
+   justify-content: center;
+   align-items: center;
+   gap:8rem;
+   
+    ;margin:auto;
+    position: relative; */
+ display: grid;
+ grid-template-columns: 200px 200px 200px 200px;
+ gap:20px;
+ width: 90%;
+justify-content: center;
+
+column-gap: 50px;
+margin: auto;  
+}
+.mainsgrid  ul{
+   list-style: none;
+ 
+}
+.mainsgrid li{
+    display: grid;
+    grid-template-columns: 200px;
+}

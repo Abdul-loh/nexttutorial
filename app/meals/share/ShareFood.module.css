@@ -1,0 +1,60 @@
+.formContainer{
+    width:90%;
+   
+    margin:10px 6rem;
+}
+.formContainer h1{
+color:#fff;
+font-size:2.7rem;
+}
+.formContainer h1  span{
+
+font-weight: 900;
+   background:linear-gradient(to bottom, yellow, red);
+   background-clip:text;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color:transparent;
+} 
+.formContainer p{
+color:#ccc;
+margin-top: 5px;
+margin-bottom: 20px;
+ } 
+
+.formName {
+   
+    display:flex;
+    gap:15px; 
+}
+
+
+
+.myForm input {
+border:none;
+background-color: #ccc;
+width: 100%;
+   outline: none;
+   padding: 8px 10px;
+
+   color:rgb(15, 15, 15);
+   font-size: medium;
+   max-width: 450px;
+}
+.myForm p{
+display: flex;
+flex-direction: column;
+gap:10px;
+margin-bottom: 1rem;
+color:#ccc;
+}
+.myForm .message{
+font-weight:600;
+background:linear-gradient(yellow, red);
+background-clip:text;
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
+}
+
+
+

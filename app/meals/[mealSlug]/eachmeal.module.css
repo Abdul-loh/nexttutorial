@@ -1,0 +1,57 @@
+.eachMeal{
+    margin:3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    width: 100%;
+    height:100%;
+    color:#fff
+    
+
+}
+.eachMeal img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+
+
+}
+.mail{
+   background:linear-gradient(yellow, red);
+   background-clip:text;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 800;
+   font-size: large;
+   font-style: italic;
+}
+.sum{
+    border:1px solid #ccc none ;
+    padding:3rem 8px;
+    animation: coloring 3s ease-in-out 3 ;
+}
+@keyframes coloring{
+
+    0% {background-color: #ccc;}
+    50% {background-color: yellowgreen;}
+    100% {background-color:pink;}
+}
+/* .dex{
+    position: relative;
+}
+.dex .dexx{
+    position: absolute;
+    top:271px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left:60px;
+    background: linear-gradient(to left, yellow, rgb(151, 151, 255));
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 2px;
+} */
