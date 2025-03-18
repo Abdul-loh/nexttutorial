@@ -58,3 +58,37 @@ font-size: 20px;
 
 
 
+.formContainer{
+    width:90%;
+   
+    margin:10px 6rem;
+}
+
+
+
+/* media query */
+
+
+@media (max-width:410px) {
+
+    .formContainer{
+        width:90%;
+        margin:10px 1rem;
+    }
+    
+    .myForm{
+    width:100%;
+       }
+    }
+
+    @media (max-width:900px) {
+
+        .formContainer{
+            width:90%;
+            margin:10px 1rem;
+        }
+        
+        .myForm{
+        width:100%;
+           }
+        }

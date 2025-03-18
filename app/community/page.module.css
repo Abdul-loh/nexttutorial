@@ -50,3 +50,45 @@ font-weight: 800;
    font-size: 2rem;
    color: #fff;
     }
+
+    @media (max-width:410px) {
+
+       .CommunityRecipe{
+        width:90%;
+        display: flex;flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+        margin: auto;
+        text-align: center;
+
+       }
+
+       .foodCommunity{
+        text-align: center;
+        margin:2rem 0;
+        font-size: larger;
+    }
+        }
+
+        @media (max-width:900px) {
+
+            .CommunityRecipe{
+             width:90%;
+             display: flex;flex-direction: column;
+     
+             justify-content: center;
+             align-items: center;
+             gap:1rem;
+             margin: auto;
+             text-align: center;
+     
+            }
+     
+            .foodCommunity{
+             text-align: center;
+             margin:2rem 0;
+             font-size: larger;
+         }
+             }

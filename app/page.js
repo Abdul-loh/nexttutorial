@@ -2,19 +2,14 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import SlideShow from "@/components/slideShow";
-import Head from "next/head";
+
 
 
 
 export default function Home() {
   return (
     <>
-
-
-
-
-
-      <header >
+      <header className={styles.foodiesHeader}>
       <div className={styles.foodies}>
         <div className={styles.slidepicture}>
           <SlideShow />
@@ -63,24 +58,5 @@ export default function Home() {
     </>
   );
 
-  //   <div className={styles["containerFoodie"]}>
-
-  //   <div className={styles["foodies"]}>
-  //     <div>
-
-  //     </div>
-  //     <div className={styles["foodhome"]}>
-  //       <h2 className={styles["foodWords"]}>Nextlevel food for Nextlevel foodies</h2>
-  //       <p> Taste & share food from all over the world</p>
-  //       <div className={styles["foodMore"]}>
-  //         <Link href="./community">Join the community</Link>
-  //         <Link  className={styles["menu"]} href="./meals">Explore Meals</Link>
-  //       </div>
-  // </div>
-  // </div>
-
-  // <h1>How it's work</h1>
-
-  //   </div>  
 
 }

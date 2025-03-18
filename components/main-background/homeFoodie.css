@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding:20px 50px;
     align-items: center;
-  
+ 
 
 }
 .containerImg{
@@ -49,4 +49,47 @@ nav li:hover, li:active{
 .container .active{
     background: linear-gradient(yellow, red);
 
+}
+
+
+/********* media-query *********/
+
+@media (max-width:410px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+}
+nav li:hover, li:active{ 
+    text-shadow: 2px 2px 10px yellow;
+    font-weight: 900;  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 14px;
+    align-items: center;
+    background: linear-gradient(yellow, red);
+ 
+}
+}
+
+@media (max-width:900px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+}
+nav li:hover, li:active{ 
+    text-shadow: 2px 2px 10px yellow;
+    font-weight: 900;  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 14px;
+    align-items: center;
+    background: linear-gradient(yellow, red);
+ 
+}
 }

@@ -1,10 +1,13 @@
 
+
+
 .foodies{
   display:flex;
+  gap:18px;
   margin:100px  auto ;
   justify-content: space-around;
   align-items: center;
- 
+ width:90%;
 
 }
 .foodhome{
@@ -64,4 +67,35 @@
  background-clip: text;
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
+}
+
+
+/********* media-query *********/
+
+@media (max-width:410px) {
+  .foodies{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:40px  auto ;
+  }
+ 
+  .foodwork{
+    width:90%;
+  
+  }
+}
+
+@media (max-width:900px) {
+  .foodies{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:40px  auto ;
+  }
+ 
+  .foodwork{
+    width:90%;
+  
+  }
 }

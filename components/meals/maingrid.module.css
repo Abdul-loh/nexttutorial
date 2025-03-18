@@ -1,13 +1,5 @@
 .mainsgrid{
-    /* display: grid;
-   
-    grid-template-columns: 300px;
-   justify-content: center;
-   align-items: center;
-   gap:8rem;
-   
-    ;margin:auto;
-    position: relative; */
+    
  display: grid;
  grid-template-columns: 200px 200px 200px 200px;
  gap:20px;
@@ -25,3 +17,28 @@ margin: auto;
     display: grid;
     grid-template-columns: 200px;
 }
+
+/* media query */
+@media (max-width:410px) {
+    
+        .mainsgrid{
+    
+            display: grid;
+            grid-template-columns: 200px;
+            margin: auto;
+            row-gap: 20px;
+
+           }
+        }
+
+        @media (max-width:900px) {
+    
+            .mainsgrid{
+        
+                display: grid;
+                grid-template-columns: 200px;
+                margin: auto;
+                row-gap: 20px;
+    
+               }
+            }
